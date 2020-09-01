@@ -1,0 +1,121 @@
+
+@media(min-width: 992px)
+{
+#main_topic
+{
+	text-align: center;
+}
+#main_div
+{
+	background-color:blue;
+	border:black solid;
+	margin :2px;
+}
+.block
+{
+	float: right;
+	box-sizing: border-box;
+	background-color:red;
+	width: 33%;
+	border:blue solid;
+	padding: 2px;
+	
+}
+.small
+{	
+	position: relative;
+	left:90%;
+	background-color: yellow;
+	width: 10%;
+	border:black solid;
+	
+	
+}
+.small > p
+{	text-align:center;
+	
+}	
+}
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+#main_topic
+{
+	text-align: center;
+}
+#main_div
+{
+	background-color:blue;
+	border:black solid;
+	margin :2px;
+}
+.block
+{
+	float: left;
+	box-sizing: border-box;
+	background-color:red;
+	width: 50%;
+	border:blue solid;
+	padding: 2px;
+	
+}
+.rinkiya
+{
+	width: 100%;
+}
+.small
+{	
+	position: relative;
+	left:90%;
+	background-color: yellow;
+	width: 10%;
+	border:black solid;
+	
+	
+}
+.small > p
+{	text-align:center;
+	
+}	
+}
+
+
+@media(max-width:767px)
+{
+#main_topic
+{
+	text-align: center;
+}
+#main_div
+{
+	background-color:blue;
+	border:black solid;
+	margin :2px;
+}
+.block
+{
+	
+	box-sizing: border-box;
+	background-color:red;
+	width: 100%;
+	border:blue solid;
+	padding: 2px;
+	
+}
+.small
+{	
+	position: relative;
+	left:90%;
+	background-color: yellow;
+	width: 10%;
+	border:black solid;
+	
+	
+}
+.small > p
+{	text-align:center;
+	
+}		
+}
+
