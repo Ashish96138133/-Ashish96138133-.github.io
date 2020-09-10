@@ -1,121 +1,35 @@
 
-@media(min-width: 992px)
+body
 {
-#main_topic
-{
-	text-align: center;
+	background-color: yellow;
 }
-#main_div
+
+.oyo1
 {
 	background-color:blue;
-	border:black solid;
-	margin :2px;
-}
-.block
-{
-	float: right;
-	box-sizing: border-box;
-	background-color:red;
-	width: 33%;
-	border:blue solid;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border:black solid 2px;
 	padding: 2px;
-	
 }
-.small
+@media(min-width:766px)
+{
+	.fuck
+	{
+		display:none;
+	}
+}
+.one
+{
+	background-color: red;
+	
+	border:white 2px;
+}
+.fok
 {	
+	width:33%;
 	position: relative;
-	left:90%;
-	background-color: yellow;
-	width: 10%;
-	border:black solid;
-	
+	left: 37%;
 	
 }
-.small > p
-{	text-align:center;
-	
-}	
-}
-
-
-@media (min-width:768px) and (max-width:991px)
-{
-#main_topic
-{
-	text-align: center;
-}
-#main_div
-{
-	background-color:blue;
-	border:black solid;
-	margin :2px;
-}
-.block
-{
-	float: left;
-	box-sizing: border-box;
-	background-color:red;
-	width: 50%;
-	border:blue solid;
-	padding: 2px;
-	
-}
-.rinkiya
-{
-	width: 100%;
-}
-.small
-{	
-	position: relative;
-	left:90%;
-	background-color: yellow;
-	width: 10%;
-	border:black solid;
-	
-	
-}
-.small > p
-{	text-align:center;
-	
-}	
-}
-
-
-@media(max-width:767px)
-{
-#main_topic
-{
-	text-align: center;
-}
-#main_div
-{
-	background-color:blue;
-	border:black solid;
-	margin :2px;
-}
-.block
-{
-	
-	box-sizing: border-box;
-	background-color:red;
-	width: 100%;
-	border:blue solid;
-	padding: 2px;
-	
-}
-.small
-{	
-	position: relative;
-	left:90%;
-	background-color: yellow;
-	width: 10%;
-	border:black solid;
-	
-	
-}
-.small > p
-{	text-align:center;
-	
-}		
-}
-
